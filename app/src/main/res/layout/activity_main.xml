@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.demo.MainActivity">
+    <com.example.administrator.demo.MyRelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:id="@+id/my_rela"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <com.example.administrator.demo.MyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮"
+            android:id="@+id/my_bt"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </com.example.administrator.demo.MyRelativeLayout>
+
+
+</RelativeLayout>
